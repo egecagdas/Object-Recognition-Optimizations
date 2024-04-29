@@ -1,0 +1,37 @@
+\begin{thebibliography}{5}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Baddeley and Hitch(1974)]{Baddeley:1974ts}
+A.~D. Baddeley and G.~Hitch.
+\newblock {Working memory}.
+\newblock \emph{Psychology of learning and motivation}, pages 47--89, 1974.
+
+\bibitem[Dix et~al.(2004)Dix, Finlay, Abowd, and Beale]{Dix04}
+A.~Dix, J.~E. Finlay, G.~D. Abowd, and R.~Beale.
+\newblock \emph{Human-Computer Interaction}.
+\newblock Pearson Education Limited, Essex, England, 3. edition, 2004.
+\newblock ISBN 0-13-046109-1.
+
+\bibitem[Doe and Smith(2013)]{Autor2013}
+J.~Doe and J.~Smith.
+\newblock Titel-untertitel.
+\newblock In \emph{Current Trends in XYZ}, pages 253--268. Verlag, 2013.
+
+\bibitem[Hall(2013)]{Hall}
+S.~Hall.
+\newblock How to cite page numbers in apa format, 2013.
+\newblock URL
+  \url{http://www.ehow.com/how_5689799_cite-numbers-apa-format.html}.
+\newblock Last accessed 16 July 2013.
+
+\bibitem[Patterson(2013)]{Patterson2013}
+D.~Patterson.
+\newblock Dave patterson's writing advice, 2013.
+\newblock URL \url{http://www.cs.berkeley.edu/~pattrsn/talks/writingtips.html}.
+\newblock Last accessed 16 July 2013.
+
+\end{thebibliography}

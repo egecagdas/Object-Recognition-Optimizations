@@ -1,0 +1,69 @@
+%Basierend auf die Vorlage von TH Köln mit mehreren Modifizierungen
+
+%\documentclass[12pt]{article}
+\documentclass[BCOR=12mm,DIV11,titlepage,a4paper,oneside]{scrbook}
+\usepackage{scrhack}
+\usepackage[ngerman]{babel}
+\usepackage{bibgerm}
+\usepackage[utf8x]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{subcaption}
+\usepackage{wrapfig}
+\usepackage{setspace} 
+
+% Mittels [H] können Bilder genau an einer Stelle positioniert werden
+\usepackage{float}
+
+\usepackage[breaklinks]{hyperref}
+
+% bewirkt das HyperLinks in der PDF nicht umrandet oder farbig sind
+\hypersetup{colorlinks=false}
+
+% package for colored text
+% black,white,green,red,blue,yellow,cyan,magenta
+\usepackage{color}
+
+% package for colored tables
+\usepackage{colortbl}
+
+%Paket zur Erzeugung von Anführungszeichen durch \enquote{Text}
+\usepackage[ngerman]{babel}
+\usepackage[babel, german=quotes]{csquotes}
+
+%Verhindern, dass eine neue Seite für ein einzelnes Wort/Zeile verwendet wird
+\clubpenalty = 10000 
+\widowpenalty = 10000 
+
+\usepackage{lipsum}
+\usepackage[authoryear]{natbib}
+\setcitestyle{square}
+
+\usepackage{natbib}
+
+
+\begin{document}
+
+\input{./chapter/titelseite}
+
+\tableofcontents
+\setcounter{page}{1}
+\newpage
+
+\onehalfspacing
+
+\input{./chapter/abstract}
+\newpage
+\input{./chapter/einleitung}
+\newpage
+\input{./chapter/kapitelzwei}
+\newpage
+\input{./chapter/kapiteldrei}
+
+\newpage
+\include{./chapter/verzeichnisse}
+\include{./chapter/eid}
+
+\end{document}
