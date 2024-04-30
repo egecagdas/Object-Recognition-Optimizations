@@ -1,4 +1,4 @@
-\begin{thebibliography}{5}
+\begin{thebibliography}{7}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -9,6 +9,14 @@
 A.~D. Baddeley and G.~Hitch.
 \newblock {Working memory}.
 \newblock \emph{Psychology of learning and motivation}, pages 47--89, 1974.
+
+\bibitem[Bustos et~al.(2023)Bustos, Mashhadi, Lai-Yuen, Sarkar, and
+  Das]{SystematicReview23}
+N.~Bustos, M.~Mashhadi, S.~Lai-Yuen, S.~Sarkar, and T.~Das.
+\newblock A systematic literature review on object detection using near
+  infrared and thermal images.
+\newblock \emph{Neurocomputing}, 560:\penalty0 126804, 09 2023.
+\newblock \doi{10.1016/j.neucom.2023.126804}.
 
 \bibitem[Dix et~al.(2004)Dix, Finlay, Abowd, and Beale]{Dix04}
 A.~Dix, J.~E. Finlay, G.~D. Abowd, and R.~Beale.
@@ -33,5 +41,15 @@ D.~Patterson.
 \newblock Dave patterson's writing advice, 2013.
 \newblock URL \url{http://www.cs.berkeley.edu/~pattrsn/talks/writingtips.html}.
 \newblock Last accessed 16 July 2013.
+
+\bibitem[Research(2022)]{InfraredCameraMarket}
+S.~Research.
+\newblock Infrared camera market size, share & trends analysis report by
+  technology (cooled ir camera, uncooled ir camera), by end-user (defense and
+  military, industrial, commercial surveillance, automotive, bfsi, healthcare,
+  residential, others) and by region(north america, europe, apac, middle east
+  and africa, latam) forecasts, 2023-2031, 2022.
+\newblock URL \url{https://straitsresearch.com/report/infrared-camera-market}.
+\newblock Last accessed 30 April 2024.
 
 \end{thebibliography}
