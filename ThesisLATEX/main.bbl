@@ -1,4 +1,4 @@
-\begin{thebibliography}{7}
+\begin{thebibliography}{8}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -29,6 +29,13 @@ J.~Doe and J.~Smith.
 \newblock Titel-untertitel.
 \newblock In \emph{Current Trends in XYZ}, pages 253--268. Verlag, 2013.
 
+\bibitem[Girshick et~al.(2014)Girshick, Donahue, Darrell, and
+  Malik]{girshick2014rcnn}
+R.~Girshick, J.~Donahue, T.~Darrell, and J.~Malik.
+\newblock Rich feature hierarchies for accurate object detection and semantic
+  segmentation.
+\newblock 2014.
+
 \bibitem[Hall(2013)]{Hall}
 S.~Hall.
 \newblock How to cite page numbers in apa format, 2013.
@@ -42,9 +49,9 @@ D.~Patterson.
 \newblock URL \url{http://www.cs.berkeley.edu/~pattrsn/talks/writingtips.html}.
 \newblock Last accessed 16 July 2013.
 
-\bibitem[Research(2022)]{InfraredCameraMarket}
-S.~Research.
-\newblock Infrared camera market size, share & trends analysis report by
+\bibitem[{Straits Research}(2022)]{InfraredCameraMarket}
+{Straits Research}.
+\newblock Infrared camera market size, share \& trends analysis report by
   technology (cooled ir camera, uncooled ir camera), by end-user (defense and
   military, industrial, commercial surveillance, automotive, bfsi, healthcare,
   residential, others) and by region(north america, europe, apac, middle east
