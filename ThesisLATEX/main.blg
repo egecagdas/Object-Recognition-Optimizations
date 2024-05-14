@@ -9,48 +9,53 @@ Reallocating 'name_of_file' (item size: 1) to 10 items.
 Reallocating 'name_of_file' (item size: 1) to 18 items.
 A level-1 auxiliary file: ./chapter/eid.aux
 Database file #1: literatur.bib
-Warning--entry type for "InfraredCameraMarket" isn't style-file defined
---line 12 of file literatur.bib
+Warning--entry type for "infraredcameramarket" isn't style-file defined
+--line 15 of file literatur.bib
+Warning--I didn't find a database entry for "ren2015faster"
+Warning--empty journal in girshick2015fast
 Warning--empty journal in girshick2014rcnn
-You've used 8 entries,
+Warning--empty journal in lin2018focal
+Warning--empty journal in redmon2016look
+Warning--empty journal in tan2020efficientdet
+You've used 13 entries,
             2773 wiz_defined-function locations,
-            651 strings with 6189 characters,
-and the built_in function-call counts, 3582 in all, are:
-= -- 320
-> -- 198
-< -- 7
-+ -- 68
-- -- 60
-* -- 257
-:= -- 550
-add.period$ -- 30
-call.type$ -- 8
-change.case$ -- 44
-chr.to.int$ -- 8
-cite$ -- 17
-duplicate$ -- 167
-empty$ -- 295
-format.name$ -- 72
-if$ -- 761
+            678 strings with 7044 characters,
+and the built_in function-call counts, 6107 in all, are:
+= -- 532
+> -- 391
+< -- 9
++ -- 133
+- -- 120
+* -- 459
+:= -- 951
+add.period$ -- 50
+call.type$ -- 13
+change.case$ -- 78
+chr.to.int$ -- 13
+cite$ -- 31
+duplicate$ -- 283
+empty$ -- 462
+format.name$ -- 137
+if$ -- 1283
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 6
-newline$ -- 53
-num.names$ -- 32
-pop$ -- 102
+missing$ -- 12
+newline$ -- 83
+num.names$ -- 52
+pop$ -- 183
 preamble$ -- 1
-purify$ -- 36
+purify$ -- 66
 quote$ -- 0
-skip$ -- 139
+skip$ -- 237
 stack$ -- 0
-substring$ -- 90
-swap$ -- 24
-text.length$ -- 2
+substring$ -- 114
+swap$ -- 39
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 83
-warning$ -- 1
-while$ -- 31
+type$ -- 133
+warning$ -- 5
+while$ -- 47
 width$ -- 0
-write$ -- 118
-(There were 2 warnings)
+write$ -- 185
+(There were 7 warnings)
