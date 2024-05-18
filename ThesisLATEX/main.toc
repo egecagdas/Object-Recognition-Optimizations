@@ -4,6 +4,7 @@
 \contentsline {chapter}{\numberline {2}Grundlagen}{6}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Digital Imagery}{6}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}Visible Spectrum(RGB) Imagery}{6}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Thermal(Infrared, IR) Imagery}{6}{subsection.2.1.2}%
 \contentsline {chapter}{\numberline {3}Weitere Kapitel}{7}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Fußnoten und Listen}{7}{section.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}Beispiel Unterabschnitte}{7}{subsection.3.1.1}%
