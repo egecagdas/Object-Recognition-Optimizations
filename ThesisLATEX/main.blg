@@ -15,51 +15,53 @@ Warning--entry type for "nasa_visiblelight" isn't style-file defined
 --line 104 of file literatur.bib
 Warning--entry type for "spi_thermal" isn't style-file defined
 --line 114 of file literatur.bib
+Warning--entry type for "flir_colorpalette" isn't style-file defined
+--line 123 of file literatur.bib
 Warning--I didn't find a database entry for "ren2015faster"
 Warning--empty journal in girshick2015fast
 Warning--empty journal in girshick2014rcnn
 Warning--empty journal in lin2018focal
 Warning--empty journal in redmon2016look
 Warning--empty journal in tan2020efficientdet
-You've used 12 entries,
+You've used 15 entries,
             2773 wiz_defined-function locations,
-            669 strings with 7055 characters,
-and the built_in function-call counts, 5454 in all, are:
-= -- 463
-> -- 377
-< -- 6
-+ -- 129
-- -- 117
-* -- 426
-:= -- 874
-add.period$ -- 49
-call.type$ -- 12
-change.case$ -- 74
-chr.to.int$ -- 12
-cite$ -- 29
-duplicate$ -- 237
-empty$ -- 398
-format.name$ -- 129
-if$ -- 1121
+            688 strings with 7453 characters,
+and the built_in function-call counts, 6655 in all, are:
+= -- 572
+> -- 427
+< -- 8
++ -- 147
+- -- 132
+* -- 522
+:= -- 1058
+add.period$ -- 60
+call.type$ -- 15
+change.case$ -- 88
+chr.to.int$ -- 15
+cite$ -- 35
+duplicate$ -- 293
+empty$ -- 511
+format.name$ -- 147
+if$ -- 1376
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 9
-newline$ -- 81
-num.names$ -- 48
-pop$ -- 171
+missing$ -- 11
+newline$ -- 98
+num.names$ -- 60
+pop$ -- 199
 preamble$ -- 1
-purify$ -- 63
+purify$ -- 74
 quote$ -- 0
-skip$ -- 201
+skip$ -- 240
 stack$ -- 0
-substring$ -- 56
-swap$ -- 23
+substring$ -- 104
+swap$ -- 28
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 127
+type$ -- 160
 warning$ -- 5
-while$ -- 38
+while$ -- 49
 width$ -- 0
-write$ -- 175
-(There were 9 warnings)
+write$ -- 217
+(There were 10 warnings)
