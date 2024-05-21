@@ -23,7 +23,7 @@ Digital imagery refers to visual content in digital form, that can be recognized
 	\label{fig:color-palette}
 \end{figure}
 
-\section{Machine Learning}
+\section{Machine Learning (ML)}
 \begin{quotation}
 	\emph{``The studies reported here have been concerned with the
 			programming of a digital computer to behave in a way
@@ -32,11 +32,17 @@ Digital imagery refers to visual content in digital form, that can be recognized
 	\citep{samuel_machinelearning}
 \end{quotation} 
 
-Machine Learning is recognized to be a term originally coined by Arthur L. Samuel in \cite{samuel_machinelearning}. It refers to the behavior of a computer to learn by trial and error, thus improving it's performance on certain tasks over time.
+Machine Learning is recognized to be a term originally coined by Arthur L. Samuel in \cite{samuel_machinelearning}. It refers to the behavior of a computer to learn by trial and error, improving it's performance on certain tasks by repeating those tasks over time. This essentially is how the computer trains for that task.
 
 For a task to be fit for a machine learning application, a definite goal must exist, and at least one criterion or intermediate goal must exist which has a bearing on the achievement of the final goal and for which the sign should be known. \citep{samuel_machinelearning} Today, machine learning systems are used to identify objects in images, transcribe speech into text, match news items, posts or products with users’ interests, and select relevant results of search. \citep{deeplearning}
 
+%TODO features and weights 
 
+\begin{description}
+\item[Supervised Learning] is a very common method of machine learning, where the training data contains the expected output of an ML model. The training algorithm can then compute an objective function that measures the error (or distance) between the output scores and the desired pattern of scores \citep{deeplearning} and adjust the feature weights to improve the result by minimizing the error.
+
+\item[Unsupervised Learning], in contrast, does not contain any specific expected output within the training data. Thus the aim of the training is to recognize patterns within the dataset and categorize the data, rather than outputting a value that matches the correct and expected value.
+\end{description}
 
 \subsection{Deep Learning}
 %TODO deep learning
