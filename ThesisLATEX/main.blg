@@ -10,13 +10,13 @@ Reallocating 'name_of_file' (item size: 1) to 18 items.
 A level-1 auxiliary file: ./chapter/eid.aux
 Database file #1: literatur.bib
 Warning--entry type for "infraredcameramarket" isn't style-file defined
---line 29 of file literatur.bib
+--line 15 of file literatur.bib
 Warning--entry type for "nasa_visiblelight" isn't style-file defined
---line 207 of file literatur.bib
+--line 104 of file literatur.bib
 Warning--entry type for "spi_thermal" isn't style-file defined
---line 227 of file literatur.bib
+--line 114 of file literatur.bib
 Warning--entry type for "flir_colorpalette" isn't style-file defined
---line 245 of file literatur.bib
+--line 123 of file literatur.bib
 Warning--I didn't find a database entry for "ren2015faster"
 Warning--empty journal in girshick2015fast
 Warning--empty journal in girshick2014rcnn
