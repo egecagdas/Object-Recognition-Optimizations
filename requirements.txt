@@ -1,3 +1,7 @@
 opencv-python
 imutils
 bs4
+tensorflow 
+tensorflow-gpu
+tf_slim
+tf-models-official

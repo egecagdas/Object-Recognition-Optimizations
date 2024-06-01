@@ -1,9 +1,17 @@
-\begin{thebibliography}{15}
+\begin{thebibliography}{21}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Breiman et~al.(1984)Breiman, Friedman, Stone, and
+  Olshen]{decisiontrees}
+L.~Breiman, J.~Friedman, C.~Stone, and R.~Olshen.
+\newblock \emph{Classification and Regression Trees}.
+\newblock Taylor \& Francis, 1984.
+\newblock ISBN 9780412048418.
+\newblock URL \url{https://books.google.com.tr/books?id=JwQx-WOmSyQC}.
 
 \bibitem[Bustos et~al.(2023)Bustos, Mashhadi, Lai-Yuen, Sarkar, and
   Das]{systematicreview23}
@@ -15,6 +23,21 @@ N.~Bustos, M.~Mashhadi, S.~K. Lai-Yuen, S.~Sarkar, and T.~K. Das.
 \newblock \doi{https://doi.org/10.1016/j.neucom.2023.126804}.
 \newblock URL
   \url{https://www.sciencedirect.com/science/article/pii/S092523122300927X}.
+
+\bibitem[Cristianini and Ricci(2008)]{svm}
+N.~Cristianini and E.~Ricci.
+\newblock \emph{Support Vector Machines}, pages 928--932.
+\newblock Springer US, Boston, MA, 2008.
+\newblock ISBN 978-0-387-30162-4.
+\newblock \doi{10.1007/978-0-387-30162-4_415}.
+\newblock URL \url{https://doi.org/10.1007/978-0-387-30162-4_415}.
+
+\bibitem[Dalal and Triggs(2005)]{objdet_hog}
+N.~Dalal and B.~Triggs.
+\newblock Histograms of oriented gradients for human detection.
+\newblock In \emph{2005 IEEE Computer Society Conference on Computer Vision and
+  Pattern Recognition (CVPR'05)}, volume~1, pages 886--893 vol. 1, 2005.
+\newblock \doi{10.1109/CVPR.2005.177}.
 
 \bibitem[Girshick(2015)]{girshick2015fast}
 R.~Girshick.
@@ -47,22 +70,36 @@ W.~Liu, D.~Anguelov, D.~Erhan, C.~Szegedy, S.~Reed, C.-Y. Fu, and A.~C. Berg.
 \newblock \doi{10.1007/978-3-319-46448-0_2}.
 \newblock URL \url{http://dx.doi.org/10.1007/978-3-319-46448-0_2}.
 
+\bibitem[Lowe(2004)]{objdet_sift}
+D.~G. Lowe.
+\newblock Distinctive image features from scale-invariant keypoints.
+\newblock volume~60, pages 91--110, Nov 2004.
+\newblock \doi{10.1023/B:VISI.0000029664.99615.94}.
+\newblock URL \url{https://doi.org/10.1023/B:VISI.0000029664.99615.94}.
+
 \bibitem[{NASA Science Mission Directorate}(2010)]{nasa_visiblelight}
 {NASA Science Mission Directorate}.
 \newblock Visible light, June 2010.
 \newblock URL \url{https://science.nasa.gov/ems/09_visiblelight}.
 \newblock Last accessed 14 May 2024.
 
-\bibitem[Patterson(2013)]{Patterson2013}
-D.~Patterson.
-\newblock Dave patterson's writing advice, 2013.
-\newblock URL \url{http://www.cs.berkeley.edu/~pattrsn/talks/writingtips.html}.
-\newblock Last accessed 16 July 2013.
+\bibitem[NT et~al.(2024)NT, Yadav, and Rajalakshmi]{objdet_slidingwindow}
+S.~K. NT, S.~Yadav, and P.~Rajalakshmi.
+\newblock A sliding window technique based radar and camera fusion model for
+  object detection in adverse weather condition.
+\newblock \emph{IEEE Sensors Letters}, pages 1--4, 2024.
+\newblock \doi{10.1109/LSENS.2024.3401233}.
 
 \bibitem[Redmon et~al.(2016)Redmon, Divvala, Girshick, and
   Farhadi]{redmon2016look}
 J.~Redmon, S.~Divvala, R.~Girshick, and A.~Farhadi.
 \newblock You only look once: Unified, real-time object detection.
+\newblock 2016.
+
+\bibitem[Ren et~al.(2016)Ren, He, Girshick, and Sun]{ren2016faster}
+S.~Ren, K.~He, R.~Girshick, and J.~Sun.
+\newblock Faster r-cnn: Towards real-time object detection with region proposal
+  networks.
 \newblock 2016.
 
 \bibitem[Samuel(1959)]{samuel_machinelearning}
@@ -99,6 +136,12 @@ M.~Tan, R.~Pang, and Q.~V. Le.
 \newblock URL
   \url{https://www.flir.com/discover/industrial/picking-a-thermal-color-palette/}.
 \newblock Last accessed 15 May 2024.
+
+\bibitem[Viola and Jones(2001)]{objdet_simplefeatures}
+P.~Viola and M.~Jones.
+\newblock Rapid object detection using a boosted cascade of simple features.
+\newblock 1:\penalty0 I--I, 2001.
+\newblock \doi{10.1109/CVPR.2001.990517}.
 
 \bibitem[Wang et~al.(2022)Wang, Chi, Shen, Song, Zhang, and
   Zhu]{rgb-infrared2022}

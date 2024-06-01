@@ -18,50 +18,55 @@ Warning--entry type for "spi_thermal" isn't style-file defined
 Warning--entry type for "flir_colorpalette" isn't style-file defined
 --line 123 of file literatur.bib
 Warning--I didn't find a database entry for "ren2015faster"
+Warning--can't use both author and editor fields in svm
 Warning--empty journal in girshick2015fast
 Warning--empty journal in girshick2014rcnn
 Warning--empty journal in lin2018focal
+Warning--empty booktitle in objdet_sift
+Warning--can't use both volume and number fields in objdet_sift
 Warning--empty journal in redmon2016look
+Warning--empty journal in ren2016faster
 Warning--empty journal in tan2020efficientdet
-You've used 15 entries,
+Warning--empty journal in objdet_simplefeatures
+You've used 21 entries,
             2773 wiz_defined-function locations,
-            688 strings with 7453 characters,
-and the built_in function-call counts, 6655 in all, are:
-= -- 572
-> -- 427
-< -- 8
-+ -- 147
-- -- 132
-* -- 522
-:= -- 1058
-add.period$ -- 60
-call.type$ -- 15
-change.case$ -- 88
-chr.to.int$ -- 15
-cite$ -- 35
-duplicate$ -- 293
-empty$ -- 511
-format.name$ -- 147
-if$ -- 1376
+            735 strings with 8794 characters,
+and the built_in function-call counts, 9989 in all, are:
+= -- 881
+> -- 598
+< -- 17
++ -- 204
+- -- 183
+* -- 788
+:= -- 1547
+add.period$ -- 87
+call.type$ -- 21
+change.case$ -- 121
+chr.to.int$ -- 21
+cite$ -- 52
+duplicate$ -- 456
+empty$ -- 775
+format.name$ -- 210
+if$ -- 2108
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 11
-newline$ -- 98
-num.names$ -- 60
-pop$ -- 199
+missing$ -- 20
+newline$ -- 137
+num.names$ -- 84
+pop$ -- 269
 preamble$ -- 1
-purify$ -- 74
+purify$ -- 103
 quote$ -- 0
-skip$ -- 240
+skip$ -- 373
 stack$ -- 0
-substring$ -- 104
-swap$ -- 28
-text.length$ -- 1
+substring$ -- 241
+swap$ -- 68
+text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 160
-warning$ -- 5
-while$ -- 49
+type$ -- 216
+warning$ -- 10
+while$ -- 77
 width$ -- 0
-write$ -- 217
-(There were 10 warnings)
+write$ -- 312
+(There were 15 warnings)

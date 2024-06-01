@@ -49,13 +49,40 @@ Machine learning algorithms essentially work by processing training data and ref
 
 
 \subsection{Deep Learning}
-%TODO deep learning
+A deep-learning architecture is a multilayer stack of simple modules, all (or most) of which are subject to learning, and many of which  compute non-linear input–output mappings. \citep{deeplearning} The multilayered structure allows automatic feature extraction from the data, which normally would need to be done manually and that often is a difficult task. Deep learning has the same fields of application as machine learning.
 
-	%TODO ML/DL optimizations
+\subsection{Object Detection}
 
-%TODO object detection
+Object detection in digital images involves identifying and localizing objects within an image. This process not only recognizes the presence of objects but also depicts their precise boundaries, typically using bounding boxes. Unlike humans; computers can not easily identify objects inside an image and classify them as to what kind of object they are, whether that is an animal, a vehicle, a human or something else that such images could contain. 
 
-%TODO Object detection optimizations, feature selection, common algorithms and models etc.
+Object detection in digital images has been its own field of study for a number of decades. The underlying algorithms for object detection have evolved significantly over the years, from traditional methods like sliding windows and handcrafted features to modern deep learning approaches. These deep learning models are trained on large datasets annotated with object classes and bounding boxes. During training, the network learns to minimize a loss function that penalizes incorrect classifications and inaccurate bounding boxes.
+
+\subsection{Traditional Object Detection Methods}
+\subsubsection*{Feature Selection by Hand}
+Early object detection algorithms relied on features such as Haar-like features \citep{objdet_simplefeatures}, Scale-Invariant Feature Transform (SIFT) \citep{objdet_sift}, and Histogram of Oriented Gradients (HOG) \citep{objdet_hog}. These features are designed to capture relevant visual information about objects, which are then fed into classifiers like Support Vector Machines (SVMs) \citep{svm} or Decision Trees \citep{decisiontrees} to detect objects. However, these methods struggle with variations in object appearance and background clutter.
+
+\subsubsection*{Sliding Window Approach}
+One of the earliest techniques, this method involves moving a fixed-size window across the image and applying a classifier at each position to detect objects. Despite its simplicity, this approach is computationally intensive and often inefficient because it requires the classifier to be evaluated at every possible location and scale within the image. \cite{objdet_slidingwindow} utilizes the sliding window approach to object detection and classification for driver assistance systems.
+
+\subsection{Modern Deep Learning Approaches to Object Detection}
+
+
+\subsubsection{Convolutional Neural Networks (CNN)}
+Convolutional Neural Networks' introduction to the object detection field has been revolutionary. CNNs are deep learning models that automatically learn feature representations from the data. CNN layers can progressively extract more complex features, from edges and boundaries in early layers to parts of objects and complete objects in the later layers.
+
+
+\subsubsection{Region-Based Convolutional Neural Networks (R-CNN)} 
+Region-Based Convolutional Neural Networks (R-CNN) have built upon the groundwork of CNNs by using selective search to propose regions likely to contain objects. Thus it reduces the number of locations to be checked. Each of these regions are then fed into a CNN. 
+
+There are R-CNN variants that have further optimized this process to achieve better speed and accuracy such as Fast R-CNN \citep{girshick2015fast} and Faster R-CNN \citep{ren2016faster}
+
+\subsubsection{You Only Look Once (YOLO)}
+YOLO \citep{redmon2016look} models use a different approach by dividing the image into a grid and predicting bounding boxes and class probabilities directly for each grid cell in a single network pass. This architecture allows YOLO to achieve real-time object detection with greater speed. YOLO models may struggle with small or closely packed objects because of the way they are designed.
+
+\subsubsection{Single Shot MultiBox Detector (SSD)}
+Similar to YOLO, SSD predicts bounding boxes and class scores directly from feature maps. However, SSD uses multiple feature maps at different scales, allowing it to handle objects of various sizes more effectively.
+
+%TODO Algorithms in detail
 
 
 %TODO örnek tezleri incele benzer grundlagen çıkar
