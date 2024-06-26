@@ -1,15 +1,18 @@
 \chapter{Modell-Optimerung}
 
 \section{Purpose}
-The purpose of optimizations in the context of object detection is to achieve better overall performance in terms of prediction accuracy and speed, with the ultimate goal of defining a good set of standards that can provide future model creators a helpful guideline to base their models off of.
+Standard accuracy metrics, such as mean average precision (mAP), do not tell the entire story, since for real deployments of computer vision systems, running time and memory usage are also critical. \citep{speedaccuracy2017}
+
+The purpose of optimizations in the context of object detection is to achieve better overall performance in terms of prediction accuracy and speed, with the ultimate goal of defining a good set of standards that can provide future model creators a helpful guideline to help create better object detection models.
 
 \section{Goals}
 
-We will work on optimizing models in three different metrics:
+We will work on optimizing models according to the following metrics:
 \begin{itemize}
 \item{Accuracy}
 \item{Speed}
-\item{Accuracy \& Speed (with Thresholds)}
+\item{Accuracy \& Speed Balance}
+\item{Memory Usage}
 \end{itemize}
 
 \subsection{Accuracy}

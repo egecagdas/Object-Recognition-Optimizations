@@ -1,10 +1,12 @@
 opencv-python
+opencv-contrib-python
 imutils
 bs4
 tensorflow 
+tf-models-official
+tensorflow-addons
 cython<3.0.0
 pyyaml==5.3.1
-tf-models-official
 orbit
 Pillow
 scikit-learn
